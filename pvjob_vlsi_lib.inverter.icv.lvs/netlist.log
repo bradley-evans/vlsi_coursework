@@ -1,0 +1,5 @@
+[03:35:50.82] /m Information: "Starting netlisting for design "vlsi_lib/inverter/schematic"..."
+               (NETLISTING-010)
+[03:35:50.87] /o No Design Integrity rule violations found in "vlsi_lib/inverter/schematic"
+[03:35:51.13] /m Information: "Netlisting design "vlsi_lib/inverter/schematic" finished
+               successfully." (NETLISTING-012)

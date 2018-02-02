@@ -1,0 +1,15 @@
+{NETLIST nand
+{VERSION 2 0 0}
+
+{CELL nand
+    {PORT VSS A B VDD VOUT }
+    {INST MM4=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=0.5 }
+	{PIN VOUT=DRN A=GATE VDD=SRC VDD=BULK }}
+    {INST MM3=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=0.5 }
+	{PIN VOUT=DRN B=GATE VDD=SRC net14=BULK }}
+    {INST MM5=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.5 }
+	{PIN net21=DRN B=GATE VSS=SRC VSS=BULK }}
+    {INST MM2=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.5 }
+	{PIN VOUT=DRN A=GATE net21=SRC net21=BULK }}
+}
+}

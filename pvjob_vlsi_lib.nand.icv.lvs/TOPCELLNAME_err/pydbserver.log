@@ -1,0 +1,48 @@
+                                        
+                                PYDB_Server (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 2007 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+NFS filesystem detected
+Removing old database /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.lvs/TOPCELLNAME_err/PYDB_nand
+Listening for connections on port 7819
+PYDB_Server Started on host bender.engr.ucr.edu, Fri 02/02/2018 04:01:49
+Client bender.engr.ucr.edu(27276):6 connected (1 total client)
+Verified current licenses.
+Client bender.engr.ucr.edu(27318):14 connected (2 total clients)
+Begin error insertion: /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:738:text_net:text_short
+Error insertion complete: /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:738:text_net:text_short
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.03 Mem=9.905 MySQL=33.285 Unpooled=0.037
+Client bender.engr.ucr.edu(27318):14 disconnected (1 client remains)
+ Total error insertion Time=0:00:05  User=0.01 Sys=0.03 Mem=9.905 MySQL=33.285 Unpooled=0.037
+  Total Commands: 1
+  Total Errors: 1
+  Avg Time/Cmd: Wall=0 User=0.01 Sys=0.03 Mem=9.905 MySQL Mem=0.037
+Shutdown requested by client bender.engr.ucr.edu(27276):6
+0 clients remain connected
+Overall server Time=0:00:11  User=0.04 Sys=0.13 Mem=10.202 MySQL=33.285 Unpooled=0.047
+                                        
+                                PYDB_Server (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 2007 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+NFS filesystem detected
+Listening for connections on port 8959
+PYDB_Server Started on host bender.engr.ucr.edu, Fri 02/02/2018 04:02:09
+Client bender.engr.ucr.edu(27380):6 connected (1 total client)
+Verified current licenses.
+Shutdown requested by client bender.engr.ucr.edu(27380):6
+0 clients remain connected
+Overall server Time=0:41:08  User=0.01 Sys=0.02 Mem=9.812 MySQL=32.550 Unpooled=0.023
