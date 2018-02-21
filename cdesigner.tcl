@@ -3041,3 +3041,6 @@ gi::setActiveWindow 17
 gi::setActiveWindow 17 -raise true
 db::setAttr geometry -of [gi::getFrames 17] -value 1450x864+0+0
 gi::executeAction giCloseWindow -in [gi::getWindows 17]
+gi::executeAction giCloseWindow -in [gi::getWindows 19]
+gi::executeAction giCloseWindow -in [gi::getWindows 0]
+gi::executeAction giCloseWindow -in [gi::getWindows 0]
