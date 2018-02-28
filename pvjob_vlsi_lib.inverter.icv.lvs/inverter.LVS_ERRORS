@@ -15,7 +15,7 @@ Layout netlist     = /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.inverter.icv.lvs/
 Runset file        = /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
 Working directory  = /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.inverter.icv.lvs
 Compare directory  = run_details/compare
-Compare start time = 2018-02-02 03:36:01
+Compare start time = 2018-02-21 13:34:36
 
 
 

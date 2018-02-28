@@ -1,8 +1,8 @@
 ICV_VUE Info : + INFO: Filter has been loaded successfully.
         '/usr/local/synopsys/icvalidator/K-2015.12-3/lib-u/LINUX.64/VUE/Layout/libhiCDesignerLE.so'
 ICV_VUE Info : + INFO: Filter version checking passed. (is: v2, expected: v2)
-DEBUG: ConnectToServer: bender.engr.ucr.edu 57504
-DEBUG: connect back to cdesigner: 'bender.engr.ucr.edu:57504'
+DEBUG: ConnectToServer: bender.engr.ucr.edu 52808
+DEBUG: connect back to cdesigner: 'bender.engr.ucr.edu:52808'
 
 < LAYOUT: start_vue >
 V SET_COLOR white       white
@@ -27,17 +27,17 @@ V SET_FILL  brick       brick
 V SET_FILL  horizontal  hLine
 V SET_FILL  vertical    vLine
 L CDESIGNER::StartFilter LAY
+ICV_VUE Info : + INFO: Filter has been loaded successfully.
+        '/usr/local/synopsys/icvalidator/K-2015.12-3/lib-u/LINUX.64/VUE/Schematic/libhiCDesignerSE.so'
 L set topLayLCV  ""
 L set curLayLCV  ""
 
 < LAYOUT: start_filter >
 L CDESIGNER::SendCommand setWorkingDir "[pwd]"
-ICV_VUE Info : + INFO: Filter has been loaded successfully.
-        '/usr/local/synopsys/icvalidator/K-2015.12-3/lib-u/LINUX.64/VUE/Schematic/libhiCDesignerSE.so'
 ICV_VUE Info : + INFO: Filter version checking passed. (is: v2, expected: v2)
   + INFO: Tcl-DP service had been loaded.
-DEBUG: ConnectToServer: bender.engr.ucr.edu 57504
-DEBUG: return previous client bender.engr.ucr.edu:57504
+DEBUG: ConnectToServer: bender.engr.ucr.edu 52808
+DEBUG: return previous client bender.engr.ucr.edu:52808
 
 < SCHEMATIC: start_vue >
 V SET_COLOR white       white
@@ -75,11 +75,11 @@ L CDESIGNER::SendCommand setWorkingDir "/home/eemaj/bevans/eecs168/pvjob_vlsi_li
 < SCHEMATIC: load_hercules >
 S set curModule "inverter"
 L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
-S CDESIGNER::SendCommand setWorkingDir "/home/eemaj/bevans/eecs168/pvjob_vlsi_lib.inverter.icv.lvs"
 L CDESIGNER::SendCommand openLCV "$curLayLCV"
-S CDESIGNER::SendCommand openModule "$curModule"
 DEBUG: PushBackXprobeMessage{vueSetDbu 0.001
 }
+S CDESIGNER::SendCommand setWorkingDir "/home/eemaj/bevans/eecs168/pvjob_vlsi_lib.inverter.icv.lvs"
+S CDESIGNER::SendCommand openModule "$curModule"
 DEBUG: PushBackXprobeMessage{vueSetDbu 0.00625
 }
 
@@ -89,9 +89,6 @@ L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
 < SCHEMATIC: remove_hilites >
 S CDESIGNER::SendCommand clearAllProbes "$curModule"
 
-< LAYOUT: remove_hilites >
-L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
-
 < SCHEMATIC: remove_hilites >
 S CDESIGNER::SendCommand clearAllProbes "$curModule"
 
@@ -100,6 +97,9 @@ L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
 
 < SCHEMATIC: remove_hilites >
 S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
 
 < LAYOUT: remove_hilites >
 L CDESIGNER::SendCommand clearAllHighlights $curLayLCV

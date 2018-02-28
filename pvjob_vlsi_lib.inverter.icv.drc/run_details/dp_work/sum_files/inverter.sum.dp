@@ -933,5 +933,5 @@ Completing error storage...
   Overall error storage time: None
 
 Generating inverter.LAYOUT_ERRORS...
-  Generation Time=0:00:00  User=0.00 Sys=0.01 Mem=9.874
+  Generation Time=0:00:01  User=0.03 Sys=0.05 Mem=9.858
 

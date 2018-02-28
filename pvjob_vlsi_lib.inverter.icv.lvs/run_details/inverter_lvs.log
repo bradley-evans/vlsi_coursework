@@ -10,7 +10,7 @@
  of a written license agreement with Synopsys, Inc. All other use, reproduction,
             or distribution of this software is strictly prohibited.
 
-LVS compare start time    : 2018-02-02 03:36:01
+LVS compare start time    : 2018-02-21 13:34:36
 +------------------------------------------------------------------------+
 |                            Environment Status                          |
 +------------------------------------------------------------------------+
@@ -178,10 +178,10 @@ Purging compare directory ... OK
 Reading Level File ...
 
 Reading schematic netlist ... 
-Reading schematic netlist Time=0:00:00  User=0.00 Sys=0.01 Mem=13.288
+Reading schematic netlist Time=0:00:00  User=0.01 Sys=0.04 Mem=13.288
 
 Reading layout netlist ... 
-Reading layout netlist Time=0:00:00  User=0.00 Sys=0.00 Mem=21.405
+Reading layout netlist Time=0:00:00  User=0.01 Sys=0.03 Mem=21.405
 
 
 Processing schematic netlist ... 
@@ -216,7 +216,7 @@ Removed layout cells:
 Checking equivalence points Time=0:00:00  User=0.00 Sys=0.00 Mem=21.483
 
 Preprocessing stage finished successfully.
-Preprocessing stage Time=0:00:00  User=0.03 Sys=0.02 Mem=23.545
+Preprocessing stage Time=0:00:04  User=0.43 Sys=0.21 Mem=23.545
 
 +------------------------------------------------------------------------+
 |                             Comparing Stage                            |
@@ -247,7 +247,7 @@ TOP Equivalence point: [inverter, inverter] Level = 0
     Comparing properties Time=0:00:00  User=0.00 Sys=0.00 Mem=25.764
 
     Writing equiv netlists ...
-    Writing Time=0:00:00  User=0.00 Sys=0.00 Mem=27.795
+    Writing Time=0:00:00  User=0.01 Sys=0.00 Mem=27.795
 
     Writing cross-reference database ... 
     Writing Time=0:00:00  User=0.00 Sys=0.00 Mem=27.795
@@ -255,7 +255,7 @@ TOP Equivalence point: [inverter, inverter] Level = 0
 Result: PASS [inverter, inverter]
     Summary file: run_details/compare/inverter/sum.inverter.inverter
 
-Elapsed Time=0:00:00  User=0.00 Sys=0.01 Mem=27.795
+Elapsed Time=0:00:00  User=0.02 Sys=0.04 Mem=27.795
 
 +------------------------------------------------------------+
 |                                                            |
@@ -264,7 +264,7 @@ Elapsed Time=0:00:00  User=0.00 Sys=0.01 Mem=27.795
 |    Passed equivalence point(s):                            |
 |        inverter == inverter                                |
 |                                                            |
-|    Level 0 Time=0:00:00  User=0.00 Sys=0.01 Mem=27.795     |
+|    Level 0 Time=0:00:00  User=0.03 Sys=0.04 Mem=27.795     |
 |                                                            |
 +------------------------------------------------------------+
 
@@ -291,5 +291,5 @@ Final comparison result: PASS
     0 failed
 Final Comparison Result:PASS
 
-LVS compare end time      : 2018-02-02 03:36:02
-Total runtime for LVS compare Time=0:00:01  User=0.03 Sys=0.04 Mem=27.795
+LVS compare end time      : 2018-02-21 13:34:42
+Total runtime for LVS compare Time=0:00:06  User=0.56 Sys=0.43 Mem=27.795

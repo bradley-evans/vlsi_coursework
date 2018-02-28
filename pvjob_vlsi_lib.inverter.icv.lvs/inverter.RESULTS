@@ -42,8 +42,8 @@ User name:        bevans
 Layout format:    OPENACCESS
 Input file name:  vlsi_lib
 Top cell name:    inverter
-Time started:     2018/02/02 03:35:51AM
-Time ended:       2018/02/02 03:36:03AM
+Time started:     2018/02/21 01:29:16PM
+Time ended:       2018/02/21 01:35:00PM
 
 
 ---------------------------------------------------------------------------
@@ -122,12 +122,12 @@ Distributed Processing
 Performance Statistics
 ---------------------------------------------------------------------------
 
-IC Validator Run Time = 0:00:12
+IC Validator Run Time = 0:05:44
 Peak Single Command Memory = 37.535
-Peak Disk Usage = 0.926
+Peak Disk Usage = 0.590
 
 Distributed Host Peak Memory Usage
  bender.engr.ucr.edu (1/8)  ....  38 Mb / 60 Gb
 
-Overall Distributed Utilization: 92.0%
+Overall Distributed Utilization: 79.9%
 IC Validator is done.

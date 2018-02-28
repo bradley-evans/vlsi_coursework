@@ -1,4 +1,4 @@
-*** inverter		Wed Jan 31 12:23:28 2018
+*** inverter		Wed Feb 21 12:47:34 2018
 
 AFTER early post-vcell processing
 
@@ -116,7 +116,7 @@ CELL = inverter
 	OPENACCESS Cell Name	= inverter
 	OPENACCESS View Name	= layout
 	OPENACCESS Cell Type	= Normal Cell
-	OPENACCESS Cell Extents (LL,UR)	= (0.005, -1.380) (3.420, 2.260)
+	OPENACCESS Cell Extents (LL,UR)	= (-0.200, -1.380) (3.215, 2.260)
 	Cell Area		= 12.43
 	Hierarchical Placements	=        1
 	Flat Placements		=        1

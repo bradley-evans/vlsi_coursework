@@ -1,4 +1,4 @@
-*** inverter		Wed Jan 31 12:23:28 2018
+*** inverter		Wed Feb 21 12:47:34 2018
 
 PRE_TREE
 
@@ -116,7 +116,7 @@ CELL = inverter
 	OPENACCESS Cell Name	= inverter
 	OPENACCESS View Name	= layout
 	OPENACCESS Cell Type	= Normal Cell
-	OPENACCESS Cell Extents (LL,UR)	= (0.005, -1.380) (3.420, 2.260)
+	OPENACCESS Cell Extents (LL,UR)	= (-0.200, -1.380) (3.215, 2.260)
 	Cell Area		= 12.43
 	Hierarchical Placements	=        1
 	Flat Placements		=        1
@@ -132,7 +132,7 @@ CELL = inverter
    Layer Usage of Original Cell:
  Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
  ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
- NWELLi            1:0    NWELL           drawing             1/0    (0.01, 0.07) (3.42, 2.26)      7.48
+ NWELLi            1:0    NWELL           drawing             1/0    (-0.20, 0.07) (3.21, 2.26)      7.48
  DIFFi             3:0    DIFF            drawing             4/0    (0.50, -0.80) (2.93, 1.58)      1.84
  PIMPi             4:0    PIMP            drawing             2/0    (0.29, -1.01) (3.16, 1.79)      2.65
  NIMPi             5:0    NIMP            drawing             2/0    (0.31, -1.01) (3.13, 1.79)      2.22
