@@ -1,0 +1,22 @@
+# Fri Feb 2 03:00:23 2018
+
+# icv_vue: RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiBase.a   : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiComm.a   : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiGUI.a    : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiSystem.a : RHEL64 K-2015.12-3.3052145 2015/12/17
+
+# Hostname     : bender.engr.ucr.edu
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue 
+
+vue_loadFile {HiLoadPage} {/home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.lvs/nand.vue}
+vue_select {mainTab} {LVS Errors}
+vue_expand {lvsEquivListView} 1 {0:0}
+vue_expand {lvsEquivListView} 0 {0:0}
+vue_select {lvsEquivListView} {0:0}
+vue_click {lvsSummaryWindow} {xref://z//38}
+vue_click {lvsSummaryWindow} {xref://snugo//VSS}
+vue_close {HiMain}

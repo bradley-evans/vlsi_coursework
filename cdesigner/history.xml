@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Designer (TM), build #, on Wed Feb 28 12:17:14 2018
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="1bitfulladder" mode="write" view="layout" file="maskLayout" application="leLayout" library="vlsi_lib"/>
+                <file cell="4bitadder" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+                <file cell="inverter" mode="write" view="starrc" file="maskLayout" application="leLayout" library="vlsi_lib"/>
+                <file cell="1bitfulladder" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+                <file cell="4bitadder_testbench" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+        </recentFiles>
+</synopsysFile>

@@ -1,0 +1,532 @@
+[00:59:27.98] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 24 00:59:13 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[00:59:34.11] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[00:59:46.72] /# gi::executeAction deRecentFile_vlsi_lib_inverter_symbol_Editing -in [gi::getWindows 0]
+[00:59:46.72] /a de::open vlsi_lib/inverter/symbol -readOnly false
+[00:59:46.85] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[00:59:46.91] /o 	############################################
+[00:59:46.91] /o 	--------------------------------------------
+[00:59:46.91] /o 	PDK Name................... : SAED_PDK_90
+[00:59:46.91] /o 	PDK Release Date........... : 29-Sep-2015
+[00:59:46.91] /o 	PDK Custom Designer Version : J-2014.12-2
+[00:59:46.91] /o 	--------------------------------------------
+[00:59:46.91] /o 	############################################
+[00:59:46.91] /o 
+[00:59:46.91] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[00:59:46.92] /o SAED PDK 90: Loaded callbacks
+[00:59:46.92] /o SAED PDK 90: Loaded display resources
+[00:59:46.95] /r giWindowId 1
+[00:59:46.96] /r giWindowGeometry 1450x864
+[00:59:48.36] /o oa:0x24fe1540
+[00:59:56.10] /i db::setAttr geometry -of [gi::getFrames 1] -value 1450x864+15+54
+[00:59:57.27] /i gi::executeAction deObjectActivation -in [gi::getWindows 1]
+[00:59:57.35] /w Warning: Nothing is bound to the 'Ctrl-Shift-s' in the current active set. (WINDOW-015)
+[00:59:57.35] /i gi::executeAction deObjectActivation -in [gi::getWindows 1]
+[01:00:01.36] /i gi::executeAction deObjectActivation -in [gi::getWindows 1]
+[01:00:01.50] /i gi::executeAction deObjectActivation -in [gi::getWindows 1]
+[01:00:19.33] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[01:00:19.33] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {0.46875 -0.08125} -index 0 -intent none] -replace true
+[01:00:19.41] /o oa:0x252a6ea0
+[01:00:19.41] /i ide::editCanvasText -object [de::getActiveFigure [gi::getWindows 1] -point {0.46875 -0.08125} -index 0 -intent none]
+[01:00:20.83] /i de::commandOption {cdsParam(1)}
+[01:00:21.01] /i de::commandOption {cdsParam(1)}
+[01:00:25.68] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[01:00:28.36] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[01:00:31.99] /i gi::setActiveWindow 0
+[01:00:32.05] /i gi::setActiveWindow 0 -raise true
+[01:00:40.21] /# gi::executeAction deRecentFile_vlsi_lib_inverter_schematic_Editing -in [gi::getWindows 0]
+[01:00:40.21] /a de::open vlsi_lib/inverter/schematic -readOnly false
+[01:00:40.34] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[01:00:40.40] /r giWindowId 2
+[01:00:40.40] /r giWindowGeometry 1450x864
+[01:00:41.73] /o oa:0x25395bc0
+[01:00:47.04] /i db::setAttr geometry -of [gi::getFrames 2] -value 1450x864+33+72
+[01:00:47.12] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[01:00:47.29] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[01:00:53.41] /i gi::setActiveWindow 0
+[01:00:53.48] /i gi::setActiveWindow 0 -raise true
+[01:00:54.15] /i db::setAttr geometry -of [gi::getFrames 2] -value 1450x864+0+0
+[01:02:23.81] /i gi::setActiveWindow 2
+[01:02:23.87] /i gi::setActiveWindow 2 -raise true
+[01:02:24.08] /i db::setAttr geometry -of [gi::getFrames 2] -value 1450x864+33+72
+[01:02:26.30] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[01:02:29.46] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[01:02:32.23] /i gi::setActiveWindow 0
+[01:02:32.30] /i gi::setActiveWindow 0 -raise true
+[01:02:41.78] /# gi::executeAction deRecentFile_vlsi_lib_inverter_testbench_schematic_ReadOnly -in [gi::getWindows 0]
+[01:02:41.78] /a de::open vlsi_lib/inverter_testbench/schematic -readOnly true
+[01:02:41.89] /r giWindowId 3
+[01:02:41.89] /r giWindowGeometry 1450x864
+[01:02:43.23] /o oa:0x22b3c610
+[01:02:50.79] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[01:02:50.91] /i db::setAttr geometry -of [gi::getFrames 3] -value 1450x864+51+90
+[01:02:50.97] /i gi::executeAction deObjectActivation -in [gi::getWindows 3]
+[01:02:53.97] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[01:03:03.86] /i gi::setActiveWindow 0
+[01:03:03.93] /i gi::setActiveWindow 0 -raise true
+[01:03:11.13] /# gi::executeAction deRecentFile_vlsi_lib_inverter_testbench_schematic_ReadOnly -in [gi::getWindows 0]
+[01:03:11.13] /a de::open vlsi_lib/inverter_testbench/schematic -readOnly true
+[01:03:11.24] /r giWindowId 4
+[01:03:11.24] /r giWindowGeometry 1450x864
+[01:03:12.45] /o oa:0x24f1a3e0
+[01:03:13.52] /i db::setAttr geometry -of [gi::getFrames 4] -value 1450x864+69+108
+[01:03:19.32] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 4]
+[01:03:19.32] /i sa::showConsole -context [db::getNext [de::getContexts -window 4]]
+[01:03:20.60] /m Information: License 'Simulation & Analysis Environment' checked out. (LICENSE-003)
+[01:03:20.63] /r giWindowId 5
+[01:03:20.64] /r giWindowGeometry 600x500
+[01:03:21.79] /o oa:0x28490410
+[01:03:22.64] /i db::setAttr geometry -of [gi::getFrames 5] -value 600x500+34+57
+[01:03:26.98] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:03:27.05] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 5]]
+[01:03:29.20] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:03:29.26] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[01:03:30.79] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:03:30.86] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[01:03:33.39] /# gi::executeAction saLoadState -in [gi::getWindows 5]
+[01:03:33.39] /i sa::showLoadState -parent 5
+[01:03:33.84] /o oa:0x283b7470
+[01:03:35.13] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]] -value 600x448+154+157
+[01:03:35.20] /i gi::setActiveDialog [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]]
+[01:03:35.83] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]] -value 600x645+154+157
+[01:03:41.10] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]]
+[01:03:50.04] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:03:50.11] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[01:03:51.92] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:03:51.98] /r giMenuAccess db::getNext [gi::getMenus saConsoleSetupMenu -from [gi::getWindows 5]]
+[01:04:08.65] /# gi::executeAction saRun -in [gi::getWindows 5]
+[01:04:08.65] /i isa::run -testbench [sa::findActiveTestbench -window 5]
+[01:04:09.22] /m Information: "Composing simulator input file for design "vlsi_lib/inverter_testbench/schematic"..."
+[01:04:09.47] /m Information: "Simulator input file composed successfully for design "vlsi_lib/inverter_testbench/schematic""
+[01:04:09.85] /r giWindowId 6
+[01:04:09.86] /r giWindowGeometry 800x600
+[01:04:10.59] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 6]
+[01:04:10.59] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[01:04:10.94] /m Information: "Starting HSPICE simulation for design: vlsi_lib/inverter_testbench/schematic"
+[01:04:10.95] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[01:04:11.03] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 6]
+[01:04:11.20] /i db::setAttr geometry -of [gi::getFrames 6] -value 800x600+34+57
+[01:04:11.50] /e Error: "Simulation failed for design: vlsi_lib/inverter_testbench/schematic "
+[01:04:11.75] /m Information: Re-evaluating the failed expression 'v(/VOUT)'
+[01:04:11.76] /m Information: Re-evaluating the failed expression 'v(/VIN)'
+[01:04:11.76] /m Information: Re-evaluating the failed expression 'i(/V1/PLUS)'
+[01:04:11.80] /m Information: Measurement calculations completed for testbench: default in 0s
+[01:04:15.59] /i gi::setCurrentIndex {jobMonitorTable} -index {0.0.0,0} -in [gi::getWindows 6]
+[01:04:15.65] /i gi::setItemSelection {jobMonitorTable} -index {0.0.0,all} -in [gi::getWindows 6]
+[01:04:15.88] /i gi::setItemSelection {jobMonitorTable} -index {} -in [gi::getWindows 6]
+[01:04:18.84] /i db::setAttr geometry -of [gi::getFrames 6] -value 800x600+623+218
+[01:04:19.08] /i gi::setItemSelection {jobMonitorTable} -index {0.0.0,all} -in [gi::getWindows 6]
+[01:04:21.42] /i gi::setActiveWindow 0
+[01:04:21.49] /i gi::setActiveWindow 0 -raise true
+[01:04:23.23] /i gi::setActiveTab {ConsoleTabs} -tabName {HistoryTab} -in [gi::getWindows 0]
+[01:04:25.95] /i gi::setActiveTab {ConsoleTabs} -tabName {LogTab} -in [gi::getWindows 0]
+[01:04:48.87] /i gi::setActiveWindow 6
+[01:04:48.93] /i gi::setActiveWindow 6 -raise true
+[01:04:49.78] /i db::setAttr geometry -of [gi::getFrames 6] -value 800x600+628+298
+[01:04:50.25] /i gi::executeAction giCloseWindow -in [gi::getWindows 6]
+[01:04:55.79] /i gi::setActiveWindow 0
+[01:04:55.87] /i gi::setActiveWindow 0 -raise true
+[01:04:57.26] /i gi::setActiveWindow 4
+[01:04:57.33] /i gi::setActiveWindow 4 -raise true
+[01:04:58.12] /i db::setAttr geometry -of [gi::getFrames 4] -value 1450x864+152+50
+[01:05:00.65] /i gi::setActiveWindow 5
+[01:05:00.72] /i gi::setActiveWindow 5 -raise true
+[01:05:22.77] /i gi::setCurrentIndex {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:05:22.84] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:05:22.91] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:05:38.43] /i db::setAttr geometry -of [gi::getFrames 5] -value 676x500+34+57
+[01:05:46.99] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:05:47.06] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:05:47.13] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:05:50.90] /i gi::setField {outputsTable} -index {0,0} -value {v(/VOUT)} -in [gi::getWindows 5]
+[01:05:51.02] /i gi::setCurrentIndex {outputsTable} -index {1,2} -in [gi::getWindows 5]
+[01:05:51.20] /i gi::setItemSelection {outputsTable} -index {1,2} -in [gi::getWindows 5]
+[01:05:51.37] /i gi::setItemSelection {outputsTable} -index {1,2} -in [gi::getWindows 5]
+[01:05:57.06] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:05:57.12] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:05:57.19] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:05:57.45] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:05:57.51] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:05:57.58] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getWindows 5]
+[01:05:57.64] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:05:57.71] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:05:58.32] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:05:58.39] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:05:58.46] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:05:58.69] /# gi::executeAction saSaveScript -in [gi::getWindows 5]
+[01:05:58.69] /i sa::showSaveScript -parent 5
+[01:05:58.77] /o oa:0x23a33a10
+[01:05:59.59] /i db::setAttr geometry -of [gi::getDialogs {saSaveScriptDlg} -parent [gi::getWindows 5]] -value 288x215+300+228
+[01:05:59.66] /i gi::setActiveDialog [gi::getDialogs {saSaveScriptDlg} -parent [gi::getWindows 5]]
+[01:06:00.72] /i gi::closeWindows [gi::getDialogs {saSaveScriptDlg} -parent [gi::getWindows 5]]
+[01:06:05.30] /# gi::executeAction saSaveScript -in [gi::getWindows 5]
+[01:06:05.30] /i sa::showSaveScript -parent 5
+[01:06:05.38] /o oa:0x28987440
+[01:06:06.82] /i gi::setActiveDialog [gi::getDialogs {saSaveScriptDlg} -parent [gi::getWindows 5]]
+[01:06:07.46] /i db::setAttr geometry -of [gi::getDialogs {saSaveScriptDlg} -parent [gi::getWindows 5]] -value 288x215+300+228
+[01:06:07.53] /i gi::closeWindows [gi::getDialogs {saSaveScriptDlg} -parent [gi::getWindows 5]]
+[01:06:09.36] /i gi::setCurrentIndex {analysisPane} -index {1,0} -in [gi::getWindows 5]
+[01:06:09.43] /i gi::setItemSelection {analysisPane} -index {1,0} -in [gi::getWindows 5]
+[01:06:09.49] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:06:09.56] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:06:10.51] /i gi::setCurrentIndex {analysisPane} -index {0,1} -in [gi::getWindows 5]
+[01:06:10.58] /i gi::setItemSelection {analysisPane} -index {0,1} -in [gi::getWindows 5]
+[01:06:11.45] /i gi::setCurrentIndex {analysisPane} -index {0,0} -in [gi::getWindows 5]
+[01:06:11.52] /i gi::setItemSelection {analysisPane} -index {0,0} -in [gi::getWindows 5]
+[01:06:12.48] /i gi::expand {analysisPane} -index {0,0} -in [gi::getWindows 5]
+[01:06:12.70] /i gi::setSectionSizes {analysisPane} -values {129 42 30 149} -in [gi::getWindows 5]
+[01:06:13.16] /i gi::collapse {analysisPane} -index {0,0} -in [gi::getWindows 5]
+[01:06:13.27] /i gi::setSectionSizes {analysisPane} -values {66 42 30 228} -in [gi::getWindows 5]
+[01:06:13.58] /i gi::expand {analysisPane} -index {0,0} -in [gi::getWindows 5]
+[01:06:13.80] /i gi::setSectionSizes {analysisPane} -values {129 42 30 149} -in [gi::getWindows 5]
+[01:06:17.17] /i gi::setCurrentIndex {analysisPane} -index {0,3} -in [gi::getWindows 5]
+[01:06:17.24] /i gi::setItemSelection {analysisPane} -index {0,3} -in [gi::getWindows 5]
+[01:06:18.58] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:18.87] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]] -value 511x596+178+181
+[01:06:26.39] /i gi::setField {/analysesGroups/tabGeneral/analysisTypeSel/dc} -value {true} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:35.73] /i gi::pressButton {/analysesGroups/tabGeneral/anaPane/gsource} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:38.22] /i gi::pressButton {/analysesGroups/tabGeneral/anaPane/gsource} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:43.35] /i gi::setField {/analysesGroups/tabGeneral/analysisTypeSel/tran} -value {true} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:44.73] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]] -value 511x624+178+181
+[01:06:49.94] /i gi::setActiveTab {/analysesGroups} -tabName {/analysesGroups/tabRF} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:50.14] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]] -value 511x631+178+181
+[01:06:53.18] /i gi::setField {/eg/enabled} -value {true} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:54.50] /i gi::setField {/eg/enabled} -value {false} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:06:58.64] /i gi::setActiveTab {/analysesGroups} -tabName {/analysesGroups/tabGeneral} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:07:00.30] /i gi::setField {/analysesGroups/tabGeneral/analysisTypeSel/dc} -value {true} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:07:02.69] /i gi::pressButton {/apply} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:07:02.79] /o dc
+[01:07:03.99] /i gi::pressButton {/ok} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 5]]
+[01:07:04.31] /i gi::setActiveWindow 5
+[01:07:04.38] /i gi::setActiveWindow 5 -raise true
+[01:07:05.95] /i gi::setCurrentIndex {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:07:06.02] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:07:06.09] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:07:06.16] /i gi::setItemSelection {analysisPane} -index {} -in [gi::getWindows 5]
+[01:07:10.50] /i gi::collapse {analysisPane} -index {0,0} -in [gi::getWindows 5]
+[01:07:10.65] /i gi::setSectionSizes {analysisPane} -values {66 42 30 228} -in [gi::getWindows 5]
+[01:07:19.38] /i gi::setActiveWindow 4
+[01:07:19.45] /i gi::setActiveWindow 4 -raise true
+[01:07:21.16] /i gi::setActiveWindow 5
+[01:07:21.23] /i gi::setActiveWindow 5 -raise true
+[01:07:21.29] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:07:21.36] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:07:21.43] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:07:24.87] /i sa::selectOutputs -outputIndex 0 -window [gi::getWindows 5]
+[01:07:25.21] /i gi::setField {outputsTable} -index {0,0} -value {v(/VOUT)} -in [gi::getWindows 5]
+[01:07:26.90] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[01:07:26.90] /i de::addPoint {4.51875 2.35} -window 4
+[01:07:31.28] /i gi::setCurrentIndex {outputsTable} -index {1,1} -in [gi::getWindows 5]
+[01:07:31.35] /i gi::setItemSelection {outputsTable} -index {1,1} -in [gi::getWindows 5]
+[01:07:31.42] /i gi::setItemSelection {outputsTable} -index {1,1} -in [gi::getWindows 5]
+[01:07:31.95] /i gi::setField {outputsTable} -index {1,0} -value {v(/VIN)} -in [gi::getWindows 5]
+[01:07:32.02] /i gi::setCurrentIndex {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:07:32.09] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:07:32.15] /i gi::setItemSelection {outputsTable} -index {0,1} -in [gi::getWindows 5]
+[01:07:36.61] /i gi::setField {outputsTable} -index {0,0} -value {} -in [gi::getWindows 5]
+[01:07:39.11] /i sa::selectOutputs -outputIndex 0 -window [gi::getWindows 5]
+[01:07:39.42] /i gi::setField {outputsTable} -index {0,0} -value {} -in [gi::getWindows 5]
+[01:07:40.94] /# gi::executeAction deAddPoint -in [gi::getWindows 4]
+[01:07:40.94] /i de::addPoint {4.65625 2.35} -window 4
+[01:07:44.25] /i gi::setCurrentIndex {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:07:44.32] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:07:44.38] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:07:47.96] /i gi::setCurrentIndex {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:07:48.03] /i gi::setItemSelection {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:07:48.09] /i gi::setItemSelection {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:07:54.36] /i gi::setActiveWindow 4
+[01:07:54.43] /i gi::setActiveWindow 4 -raise true
+[01:07:54.57] /i gi::setActiveWindow 5
+[01:07:54.64] /i gi::setActiveWindow 5 -raise true
+[01:07:54.79] /i db::setAttr geometry -of [gi::getFrames 4] -value 1450x864+0+0
+[01:08:13.68] /i gi::setCurrentIndex {outputsTable} -index {0,4} -in [gi::getWindows 5]
+[01:08:13.75] /i gi::setItemSelection {outputsTable} -index {0,4} -in [gi::getWindows 5]
+[01:08:13.82] /i gi::setItemSelection {outputsTable} -index {0,4} -in [gi::getWindows 5]
+[01:08:14.03] /i gi::setField {outputsTable} -index {0,4} -value {false} -in [gi::getWindows 5]
+[01:08:14.09] /i gi::setField {outputsTable} -index {0,4} -value {false} -in [gi::getWindows 5]
+[01:08:14.70] /i gi::setField {outputsTable} -index {0,4} -value {true} -in [gi::getWindows 5]
+[01:08:14.77] /i gi::setField {outputsTable} -index {0,4} -value {true} -in [gi::getWindows 5]
+[01:08:15.87] /i gi::setCurrentIndex {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:08:15.93] /i gi::setItemSelection {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:08:16.00] /i gi::setItemSelection {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:08:18.36] /i gi::setCurrentIndex {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:08:18.43] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:08:18.50] /i gi::setItemSelection {outputsTable} -index {0,2} -in [gi::getWindows 5]
+[01:08:30.73] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[01:08:30.73] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5]
+[01:08:30.85] /m Information: "Starting incremental netlisting for design "vlsi_lib/inverter_testbench/schematic"..." (NETLISTING-010)
+[01:08:31.02] /o No Design Integrity rule violations found in "vlsi_lib/inverter_testbench/schematic"
+[01:08:31.20] /m Information: "Netlisting design "vlsi_lib/inverter_testbench/schematic" finished successfully." (NETLISTING-012)
+[01:08:31.21] /m Information: "Composing simulator input file for design "vlsi_lib/inverter_testbench/schematic"..."
+[01:08:31.28] /m Information: "Simulator input file composed successfully for design "vlsi_lib/inverter_testbench/schematic""
+[01:08:31.65] /r giWindowId 7
+[01:08:31.65] /r giWindowGeometry 800x600
+[01:08:32.41] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 7]
+[01:08:32.41] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 7]
+[01:08:32.57] /m Information: "Starting HSPICE simulation for design: vlsi_lib/inverter_testbench/schematic"
+[01:08:32.58] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 7]
+[01:08:32.89] /o 1
+[01:08:32.89] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 7]
+[01:08:33.04] /i db::setAttr geometry -of [gi::getFrames 7] -value 800x600+190+213
+[01:08:35.20] /e Error: "Simulation failed for design: vlsi_lib/inverter_testbench/schematic "
+[01:08:35.38] /m Information: Re-evaluating the failed expression 'v(/VOUT)'
+[01:08:35.38] /m Information: Re-evaluating the failed expression 'v(/VIN)'
+[01:08:35.39] /m Information: Re-evaluating the failed expression 'i(/V1/PLUS)'
+[01:08:35.42] /m Information: Measurement calculations completed for testbench: default in 0s
+[01:08:38.79] /i db::setAttr geometry -of [gi::getFrames 7] -value 800x600+544+110
+[01:08:40.52] /i gi::executeAction giCloseWindow -in [gi::getWindows 7]
+[01:08:40.89] /i gi::setActiveWindow 5
+[01:08:40.96] /i gi::setActiveWindow 5 -raise true
+[01:08:45.13] /i gi::setField {outputsTable} -index {0,2} -value {dc} -in [gi::getWindows 5]
+[01:08:46.46] /i gi::setField {outputsTable} -index {0,2} -value {dc\ tran} -in [gi::getWindows 5]
+[01:08:48.33] /i gi::setField {outputsTable} -index {0,2} -value {dc\ tran} -in [gi::getWindows 5]
+[01:08:48.39] /i gi::setCurrentIndex {outputsTable} -index {1,2} -in [gi::getWindows 5]
+[01:08:48.46] /i gi::setItemSelection {outputsTable} -index {1,2} -in [gi::getWindows 5]
+[01:08:48.53] /i gi::setItemSelection {outputsTable} -index {1,2} -in [gi::getWindows 5]
+[01:08:53.25] /i gi::setField {outputsTable} -index {1,2} -value {dc} -in [gi::getWindows 5]
+[01:08:53.77] /i gi::setField {outputsTable} -index {1,2} -value {dc\ tran} -in [gi::getWindows 5]
+[01:08:55.35] /i gi::setField {outputsTable} -index {1,2} -value {dc\ tran} -in [gi::getWindows 5]
+[01:08:55.42] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:08:55.49] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:08:55.56] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:08.24] /i gi::setField {outputsTable} -index {2,2} -value {dc} -in [gi::getWindows 5]
+[01:09:08.31] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getWindows 5]
+[01:09:08.37] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:08.44] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:09.59] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:09.66] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:09.73] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:12.00] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getWindows 5]
+[01:09:12.06] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:12.13] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:13.11] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:13.17] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:13.24] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:14.23] /i gi::setField {outputsTable} -index {2,2} -value {} -in [gi::getWindows 5]
+[01:09:15.90] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:15.97] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:16.03] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getWindows 5]
+[01:09:16.10] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:16.17] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:16.23] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:16.30] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:16.37] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:18.10] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:18.17] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:18.23] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getWindows 5]
+[01:09:18.30] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:18.37] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:19.06] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:19.13] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:19.19] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:21.93] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:22.00] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:22.07] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getWindows 5]
+[01:09:22.13] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:22.20] /i gi::setItemSelection {outputsTable} -index {} -in [gi::getWindows 5]
+[01:09:23.62] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:23.69] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:23.75] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:09:28.93] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 5]
+[01:09:28.93] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 5]
+[01:09:29.03] /m Information: "Starting incremental netlisting for design "vlsi_lib/inverter_testbench/schematic"..." (NETLISTING-010)
+[01:09:29.07] /o No Design Integrity rule violations found in "vlsi_lib/inverter_testbench/schematic"
+[01:09:29.14] /m Information: "Netlisting design "vlsi_lib/inverter_testbench/schematic" finished successfully." (NETLISTING-012)
+[01:09:29.14] /m Information: "Composing simulator input file for design "vlsi_lib/inverter_testbench/schematic"..."
+[01:09:29.22] /m Information: "Simulator input file composed successfully for design "vlsi_lib/inverter_testbench/schematic""
+[01:09:29.63] /r giWindowId 8
+[01:09:29.64] /r giWindowGeometry 800x600
+[01:09:30.25] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 8]
+[01:09:30.25] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 8]
+[01:09:30.40] /m Information: "Starting HSPICE simulation for design: vlsi_lib/inverter_testbench/schematic"
+[01:09:30.41] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 8]
+[01:09:30.47] /o 1
+[01:09:30.47] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 8]
+[01:09:30.66] /i db::setAttr geometry -of [gi::getFrames 8] -value 800x600+216+239
+[01:09:30.81] /e Error: "Simulation failed for design: vlsi_lib/inverter_testbench/schematic "
+[01:09:30.98] /m Information: Expression 'v(/VOUT)' did not evaluate: No results found.
+[01:09:30.98] /m Information: Expression 'v(/VIN)' did not evaluate: No results found.
+[01:09:30.99] /m Information: Re-evaluating the failed expression 'v(/VOUT)'
+[01:09:30.99] /m Information: Expression 'v(/VOUT)' did not evaluate: No results found.
+[01:09:31.00] /m Information: Re-evaluating the failed expression 'v(/VIN)'
+[01:09:31.00] /m Information: Expression 'v(/VIN)' did not evaluate: No results found.
+[01:09:31.00] /m Information: Re-evaluating the failed expression 'i(/V1/PLUS)'
+[01:09:31.04] /m Information: Measurement calculations completed for testbench: default in 1s
+[01:09:33.64] /i gi::setActiveWindow 0
+[01:09:33.71] /i gi::setActiveWindow 0 -raise true
+[01:09:42.77] /i gi::setActiveWindow 8
+[01:09:42.84] /i gi::setActiveWindow 8 -raise true
+[01:09:42.91] /i gi::executeAction giCloseWindow -in [gi::getWindows 8]
+[01:09:43.58] /i gi::setActiveWindow 0
+[01:09:43.64] /i gi::setActiveWindow 0 -raise true
+[01:09:44.56] /i gi::setActiveWindow 5
+[01:09:44.63] /i gi::setActiveWindow 5 -raise true
+[01:09:49.45] /# gi::executeAction saRun -in [gi::getWindows 5]
+[01:09:49.45] /i isa::run -testbench [sa::findActiveTestbench -window 5]
+[01:09:49.65] /m Information: "Composing simulator input file for design "vlsi_lib/inverter_testbench/schematic"..."
+[01:09:49.73] /m Information: "Simulator input file composed successfully for design "vlsi_lib/inverter_testbench/schematic""
+[01:09:50.00] /r giWindowId 9
+[01:09:50.01] /r giWindowGeometry 800x600
+[01:09:50.86] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 9]
+[01:09:50.86] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 9]
+[01:09:51.02] /m Information: "Starting HSPICE simulation for design: vlsi_lib/inverter_testbench/schematic"
+[01:09:51.03] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 9]
+[01:09:51.16] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 9]
+[01:09:58.34] /i db::setAttr geometry -of [gi::getFrames 9] -value 800x600+34+57
+[01:09:58.43] /e Error: "Simulation failed for design: vlsi_lib/inverter_testbench/schematic "
+[01:09:58.66] /m Information: Expression 'v(/VOUT)' did not evaluate: No results found.
+[01:09:58.67] /m Information: Expression 'v(/VIN)' did not evaluate: No results found.
+[01:09:58.68] /m Information: Re-evaluating the failed expression 'v(/VOUT)'
+[01:09:58.68] /m Information: Expression 'v(/VOUT)' did not evaluate: No results found.
+[01:09:58.68] /m Information: Re-evaluating the failed expression 'v(/VIN)'
+[01:09:58.69] /m Information: Expression 'v(/VIN)' did not evaluate: No results found.
+[01:09:58.69] /m Information: Re-evaluating the failed expression 'i(/V1/PLUS)'
+[01:09:58.73] /m Information: Measurement calculations completed for testbench: default in 0s
+[01:09:59.26] /i gi::executeAction giCloseWindow -in [gi::getWindows 9]
+[01:10:06.60] /i gi::setActiveWindow 5
+[01:10:06.67] /i gi::setActiveWindow 5 -raise true
+[01:10:06.97] /i gi::setCurrentIndex {outputsTable} -index {2,3} -in [gi::getWindows 5]
+[01:10:07.04] /i gi::setItemSelection {outputsTable} -index {2,3} -in [gi::getWindows 5]
+[01:10:07.11] /i gi::setItemSelection {outputsTable} -index {2,3} -in [gi::getWindows 5]
+[01:10:07.74] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:10:07.81] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:10:07.88] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getWindows 5]
+[01:10:25.03] /i gi::setField {outputsTable} -index {2,2} -value {} -in [gi::getWindows 5]
+[01:10:30.61] /i db::setAttr geometry -of [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]] -value 690x335+25+131
+[01:10:30.68] /i gi::setActiveDialog [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:10:32.29] /i gi::setCurrentIndex {outputsTable} -index {3,2} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:10:33.02] /i gi::setCurrentIndex {outputsTable} -index {2,2} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:10:33.09] /i gi::setItemSelection {outputsTable} -index {2,2} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:16.95] /i gi::setField {outputsTable} -index {2,2} -value {dc} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:17.73] /i gi::setField {outputsTable} -index {2,2} -value {dc\ tran} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:20.19] /i gi::setField {outputsTable} -index {2,2} -value {dc\ tran} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:20.30] /i gi::pressButton {apply} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:25.49] /i gi::setActiveWindow 4
+[01:11:25.55] /i gi::setActiveWindow 4 -raise true
+[01:11:25.81] /i db::setAttr geometry -of [gi::getFrames 4] -value 1450x864+152+50
+[01:11:28.46] /i gi::setActiveWindow 5
+[01:11:28.53] /i gi::setActiveWindow 5 -raise true
+[01:11:29.01] /i gi::pressButton {apply} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:30.16] /i gi::pressButton {ok} -in [gi::getDialogs {saOutputSetup} -parent [gi::getWindows 5]]
+[01:11:32.32] /# gi::executeAction saRun -in [gi::getWindows 5]
+[01:11:32.32] /i isa::run -testbench [sa::findActiveTestbench -window 5]
+[01:11:32.59] /m Information: "Composing simulator input file for design "vlsi_lib/inverter_testbench/schematic"..."
+[01:11:32.67] /m Information: "Simulator input file composed successfully for design "vlsi_lib/inverter_testbench/schematic""
+[01:11:32.99] /r giWindowId 10
+[01:11:33.00] /r giWindowGeometry 800x600
+[01:11:33.63] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 10]
+[01:11:33.63] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[01:11:33.85] /m Information: "Starting HSPICE simulation for design: vlsi_lib/inverter_testbench/schematic"
+[01:11:33.86] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[01:11:33.88] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[01:11:34.16] /i db::setAttr geometry -of [gi::getFrames 10] -value 800x600+60+83
+[01:11:35.15] /e Error: "Simulation failed for design: vlsi_lib/inverter_testbench/schematic "
+[01:11:35.36] /m Information: Expression 'v(/VOUT)' did not evaluate: No results found.
+[01:11:35.37] /m Information: Expression 'v(/VIN)' did not evaluate: No results found.
+[01:11:35.37] /m Information: Expression 'i(/V1/PLUS)' did not evaluate: No results found.
+[01:11:35.38] /m Information: Re-evaluating the failed expression 'v(/VOUT)'
+[01:11:35.38] /m Information: Expression 'v(/VOUT)' did not evaluate: No results found.
+[01:11:35.39] /m Information: Re-evaluating the failed expression 'v(/VIN)'
+[01:11:35.39] /m Information: Expression 'v(/VIN)' did not evaluate: No results found.
+[01:11:35.40] /m Information: Re-evaluating the failed expression 'i(/V1/PLUS)'
+[01:11:35.40] /m Information: Expression 'i(/V1/PLUS)' did not evaluate: No results found.
+[01:11:35.44] /m Information: Measurement calculations completed for testbench: default in 0s
+[01:11:38.55] /i gi::setActiveWindow 0
+[01:11:38.62] /i gi::setActiveWindow 0 -raise true
+[01:11:40.16] /i gi::setActiveTab {ConsoleTabs} -tabName {ErrorTab} -in [gi::getWindows 0]
+[01:11:46.47] /i gi::setActiveTab {ConsoleTabs} -tabName {HistoryTab} -in [gi::getWindows 0]
+[01:11:49.57] /i gi::setActiveTab {ConsoleTabs} -tabName {LogTab} -in [gi::getWindows 0]
+[01:11:51.82] /i gi::setActiveWindow 5
+[01:11:51.89] /i gi::setActiveWindow 5 -raise true
+[01:11:56.66] /i gi::setCurrentIndex {outputsTable} -index {2,3} -in [gi::getWindows 5]
+[01:11:56.72] /i gi::setItemSelection {outputsTable} -index {2,3} -in [gi::getWindows 5]
+[01:11:56.79] /i gi::setItemSelection {outputsTable} -index {2,3} -in [gi::getWindows 5]
+[01:11:58.89] /i gi::setCurrentIndex {outputsTable} -index {1,3} -in [gi::getWindows 5]
+[01:11:58.95] /i gi::setItemSelection {outputsTable} -index {1,3} -in [gi::getWindows 5]
+[01:11:59.02] /i gi::setItemSelection {outputsTable} -index {1,3} -in [gi::getWindows 5]
+[01:11:59.84] /i gi::setCurrentIndex {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:11:59.91] /i gi::setItemSelection {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:11:59.97] /i gi::setItemSelection {outputsTable} -index {0,3} -in [gi::getWindows 5]
+[01:12:19.53] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:12:19.60] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[01:12:21.81] /# gi::executeAction saSaveState -in [gi::getWindows 5]
+[01:12:21.81] /i sa::showSaveState -parent 5
+[01:12:22.12] /o oa:0x28970e20
+[01:12:23.22] /i gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:12:23.75] /i db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]] -value 506x507+192+220
+[01:12:27.89] /i gi::pressButton {/apply} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:12:29.23] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:12:45.06] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:12:45.13] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[01:12:48.00] /# gi::executeAction saSaveState -in [gi::getWindows 5]
+[01:12:48.00] /i sa::showSaveState -parent 5
+[01:12:48.24] /o oa:0x28e46240
+[01:12:49.13] /i gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:12:49.46] /i db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]] -value 506x507+192+220
+[01:12:52.54] /i gi::closeWindows [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:12:53.55] /i gi::executeAction menuPreShow -in [gi::getWindows 5]
+[01:12:53.62] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 5]]
+[01:12:57.03] /# gi::executeAction saLoadState -in [gi::getWindows 5]
+[01:12:57.03] /i sa::showLoadState -parent 5
+[01:12:57.22] /o oa:0x28c6ec70
+[01:12:58.35] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]] -value 600x606+154+157
+[01:12:58.42] /i gi::setActiveDialog [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]]
+[01:12:59.30] /i gi::setField {/loadFrom/openAccess} -value {true} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]]
+[01:12:59.94] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]] -value 600x616+154+157
+[01:13:04.75] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 5]]
+[01:13:04.85] /# gi::setItemSelection {analysisPane} -index {1,3} -in [gi::getWindows 5]
+[01:13:04.85] /# gi::setCurrentIndex {analysisPane} -index {1,3} -in [gi::getWindows 5]
+[01:13:08.86] /# gi::executeAction saRun -in [gi::getWindows 5]
+[01:13:08.86] /i isa::run -testbench [sa::findActiveTestbench -window 5]
+[01:13:09.10] /m Information: "Composing simulator input file for design "vlsi_lib/inverter_testbench/schematic"..."
+[01:13:09.18] /m Information: "Simulator input file composed successfully for design "vlsi_lib/inverter_testbench/schematic""
+[01:13:09.86] /m Information: "Starting HSPICE simulation for design: vlsi_lib/inverter_testbench/schematic"
+[01:13:09.87] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[01:13:09.90] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 10]
+[01:13:10.33] /m Information: "Simulation completed successfully for design: vlsi_lib/inverter_testbench/schematic "
+[01:13:10.61] /m Information: Measurement calculations completed for testbench: default in 0s
+[01:13:10.62] /m Information: "Evaluating and plotting outputs..."
+[01:13:10.67] /m Information: Launching Waveform Viewer "cd /home/eemaj/bevans/simulation/vlsi_lib/inverter_testbench/schematic/HSPICE/nominal/results && wv -k -cdesigner > /home/eemaj/bevans/simulation/vlsi_lib/inverter_testbench/schematic/HSPICE/nominal/results/viewer.log 2>&1"
+[01:14:46.62] /i gi::setActiveWindow 5
+[01:14:46.69] /i gi::setActiveWindow 5 -raise true
+[01:14:49.16] /i db::setAttr geometry -of [gi::getFrames 5] -value 676x500+0+0
+[01:14:50.83] /i gi::setActiveWindow 10
+[01:14:50.89] /i gi::setActiveWindow 10 -raise true
+[01:14:52.56] /i gi::executeAction giCloseWindow -in [gi::getWindows 10]
+[01:15:51.35] /i gi::setActiveWindow 4
+[01:15:51.45] /i gi::setActiveWindow 4 -raise true
+[01:15:53.52] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[01:20:04.11] /i gi::setActiveWindow 0
+[01:20:04.18] /i gi::setActiveWindow 0 -raise true
+[01:27:52.73] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[01:27:53.20] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[01:27:53.38] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+666+362
+[01:27:55.89] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[01:27:56.64] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[01:27:57.36] /i gi::setActiveWindow 0
+[01:27:57.46] /i gi::setActiveWindow 0 -raise true
+[01:27:57.70] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[01:27:57.96] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]] -value 295x89+189+197
+[01:27:59.68] /r giDialog gi::pressButton {save} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[01:28:01.21] /r giDialog db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]] -value 506x565+122+76
+[01:28:01.21] /r giDialog gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:28:04.62] /r giDialog gi::pressButton {/cancel} -in [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 5]]
+[01:28:06.43] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[01:28:06.84] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[01:28:07.04] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+666+362
+[01:28:08.14] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[01:28:08.88] /i gi::setActiveWindow 0
+[01:28:09.00] /i gi::setActiveWindow 0 -raise true
+[01:28:09.23] /r giDialog gi::setActiveDialog [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[01:28:09.50] /r giDialog db::setAttr geometry -of [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]] -value 295x89+189+197
+[01:28:10.48] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {giPrompt} -parent [gi::getWindows 5]]
+[01:28:11.77] /o Shutdown time: Wed Jan 24 01:28:11 2018
+[01:28:11.77] /o Elapsed session real time: 28.71 minutes
+[01:28:11.77] /o Session terminated. Log is at /home/eemaj/bevans/eecs168/cdesigner.log

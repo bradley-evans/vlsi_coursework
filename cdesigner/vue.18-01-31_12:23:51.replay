@@ -1,0 +1,17 @@
+# Wed Jan 31 12:23:51 2018
+
+# icv_vue: RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiBase.a   : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiComm.a   : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiGUI.a    : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiSystem.a : RHEL64 K-2015.12-3.3052145 2015/12/17
+
+# Hostname     : bender.engr.ucr.edu
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue 
+
+vue_select {mainTab} {Load Results}
+vue_select {mainTab} {Execution}
+vue_close {HiMain}

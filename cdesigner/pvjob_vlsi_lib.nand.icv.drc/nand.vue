@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /usr/local/synopsys/icvalidator/K-2015.12-3
+WORKING_DIR       = .
+INLIB             = vlsi_lib
+INLIB_PATH        = 
+OUTLIB            = run_details/nand
+OUTLIB_PATH       = .
+BLOCK             = nand
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+FORMAT            = OPENACCESS
+EVACCESS_PATH     = run_details/pydb
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = rules.drc.9m_saed90_icv.drc.rs

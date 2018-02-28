@@ -1,0 +1,5 @@
+[04:01:44.29] /m Information: "Starting netlisting for design "vlsi_lib/nand/schematic"..."
+               (NETLISTING-010)
+[04:01:44.34] /o No Design Integrity rule violations found in "vlsi_lib/nand/schematic"
+[04:01:44.62] /m Information: "Netlisting design "vlsi_lib/nand/schematic" finished
+               successfully." (NETLISTING-012)

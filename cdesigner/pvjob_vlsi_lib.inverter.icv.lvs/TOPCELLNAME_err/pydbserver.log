@@ -1,0 +1,41 @@
+                                        
+                                PYDB_Server (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 2007 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+NFS filesystem detected
+Removing old database /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.inverter.icv.lvs/TOPCELLNAME_err/PYDB_inverter
+Listening for connections on port 8179
+PYDB_Server Started on host bender.engr.ucr.edu, Wed 02/21/2018 13:33:35
+Client bender.engr.ucr.edu(5668):6 connected (1 total client)
+Verified current licenses.
+Client bender.engr.ucr.edu(6281):18 connected (2 total clients)
+Client bender.engr.ucr.edu(6281):18 disconnected (1 client remains)
+Shutdown requested by client bender.engr.ucr.edu(5668):6
+0 clients remain connected
+Overall server Time=0:01:25  User=0.34 Sys=1.07 Mem=9.858 MySQL=33.219 Unpooled=0.028
+                                        
+                                PYDB_Server (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 2007 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+NFS filesystem detected
+Listening for connections on port 7924
+PYDB_Server Started on host bender.engr.ucr.edu, Wed 02/21/2018 13:35:31
+Client bender.engr.ucr.edu(6479):6 connected (1 total client)
+Verified current licenses.
+Shutdown requested by client bender.engr.ucr.edu(6479):6
+0 clients remain connected
+Overall server Time=0:00:24  User=0.11 Sys=0.08 Mem=9.749 MySQL=32.443 Unpooled=0.022

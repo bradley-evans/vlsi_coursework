@@ -1,0 +1,6 @@
+* XREF SPICE	Fri Feb  2 04:01:58 2018	nand
+* icv_netlist Version RHEL64 K-2015.12-3.3052145 2015/12/17
+
+* Top of hierarchy  cell=nand
+.subckt nand ln_VDD ln_B ln_A
+.ends nand

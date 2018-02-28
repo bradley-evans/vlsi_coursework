@@ -1,0 +1,145 @@
+[03:38:45.46] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Feb 28 03:38:03 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[03:39:10.38] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[03:39:33.24] /# gi::executeAction deOpenDesign -in [gi::getWindows 0]
+[03:39:33.25] /i de::showOpenDesign
+[03:39:33.65] /o oa:0x24205f30
+[03:39:34.29] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[03:39:34.52] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+529+226
+[03:39:36.08] /i gi::setCurrentIndex {designLibs} -index {vlsi_lib} -in [gi::getDialogs {deOpenDesign}]
+[03:39:36.32] /i gi::setItemSelection {designLibs} -index {vlsi_lib} -in [gi::getDialogs {deOpenDesign}]
+[03:39:38.30] /i gi::setCurrentIndex {designCells} -index {4bitadder_testbench} -in [gi::getDialogs {deOpenDesign}]
+[03:39:38.51] /i gi::setItemSelection {designCells} -index {4bitadder_testbench} -in [gi::getDialogs {deOpenDesign}]
+[03:39:40.97] /i gi::setCurrentIndex {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[03:39:41.12] /i gi::setItemSelection {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[03:39:42.31] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[03:39:42.43] /# de::open [dm::findCellView {schematic} -cellName {4bitadder_testbench} -libName {vlsi_lib}] -readOnly 0
+[03:39:42.65] /o 	############################################
+[03:39:42.65] /o 	--------------------------------------------
+[03:39:42.65] /o 	PDK Name................... : SAED_PDK_90
+[03:39:42.65] /o 	PDK Release Date........... : 29-Sep-2015
+[03:39:42.65] /o 	PDK Custom Designer Version : J-2014.12-2
+[03:39:42.66] /o 	--------------------------------------------
+[03:39:42.66] /o 	############################################
+[03:39:42.66] /o 
+[03:39:42.66] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[03:39:42.73] /o SAED PDK 90: Loaded callbacks
+[03:39:42.78] /o SAED PDK 90: Loaded display resources
+[03:39:43.05] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[03:39:43.78] /r giWindowId 1
+[03:39:43.80] /r giWindowGeometry 1450x864
+[03:39:48.86] /o 0.1
+[03:39:56.42] /i de::finishEvalTextRendering -window [gi::getWindows 1]
+[03:39:59.65] /# gi::executeAction deDeselectByPoint -in [gi::getWindows 1]
+[03:39:59.65] /i ide::selectByRegion -region point -select false
+[03:40:04.11] /i db::setAttr geometry -of [gi::getFrames 1] -value 1450x864+15+54
+[03:40:07.29] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 1]
+[03:40:07.29] /i sa::showConsole -context [db::getNext [de::getContexts -window 1]]
+[03:40:23.96] /m Information: License 'Simulation & Analysis Environment' checked out. (LICENSE-003)
+[03:40:24.35] /r giWindowId 2
+[03:40:24.43] /r giWindowGeometry 600x500
+[03:40:28.51] /o oa:0x286946a0
+[03:40:29.73] /i db::setAttr geometry -of [gi::getFrames 2] -value 600x500+34+57
+[03:40:31.87] /# gi::executeAction saRun -in [gi::getWindows 2]
+[03:40:31.87] /i isa::run -testbench [sa::findActiveTestbench -window 2]
+[03:40:32.99] /m Information: "Composing simulator input file for design "vlsi_lib/4bitadder_testbench/schematic"..."
+[03:40:33.46] /m Information: "Simulator input file composed successfully for design "vlsi_lib/4bitadder_testbench/schematic""
+[03:40:35.24] /r giWindowId 3
+[03:40:35.33] /r giWindowGeometry 800x600
+[03:40:37.19] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 3]
+[03:40:37.19] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 3]
+[03:40:38.29] /m Information: "Starting HSPICE simulation for design: vlsi_lib/4bitadder_testbench/schematic"
+[03:40:45.66] /# db::setAttr geometry -of [gi::getFrames 3] -value 800x600+34+57
+[03:40:45.86] /# gi::setActiveWindow 1
+[03:40:45.86] /# gi::setActiveWindow 1 -raise true
+[03:40:45.96] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 3]
+[03:40:46.03] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 3]
+[03:41:15.14] /i gi::setActiveWindow 2
+[03:41:15.26] /i gi::setActiveWindow 2 -raise true
+[03:41:17.11] /i gi::setCurrentIndex {variablesTable} -index {0,0} -in [gi::getWindows 2]
+[03:41:17.21] /i gi::setItemSelection {variablesTable} -index {0,0} -in [gi::getWindows 2]
+[03:41:17.30] /i gi::setItemSelection {variablesTable} -index {0,0} -in [gi::getWindows 2]
+[03:41:18.60] /i gi::setActiveWindow 3
+[03:41:18.70] /i gi::setActiveWindow 3 -raise true
+[03:41:19.31] /i db::setAttr geometry -of [gi::getFrames 2] -value 600x500+995+185
+[03:41:19.57] /e Error: "Simulation failed for design: vlsi_lib/4bitadder_testbench/schematic "
+[03:41:20.46] /# gi::setActiveWindow 2
+[03:41:20.46] /# gi::setActiveWindow 2 -raise true
+[03:41:20.75] /m Information: Measurement calculations completed for testbench: default in 0s
+[03:41:29.93] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[03:41:30.03] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 2]]
+[03:41:40.08] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[03:41:40.19] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 2]]
+[03:41:42.03] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[03:41:42.13] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 2]]
+[03:41:44.57] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[03:41:44.67] /r giMenuAccess db::getNext [gi::getMenus saConsoleSessionMenu -from [gi::getWindows 2]]
+[03:41:48.09] /# gi::executeAction saLoadState -in [gi::getWindows 2]
+[03:41:48.09] /i sa::showLoadState -parent 2
+[03:41:50.94] /o oa:0x289a0c60
+[03:41:53.03] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 2]] -value 600x448+1115+285
+[03:41:53.13] /i gi::setActiveDialog [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 2]]
+[03:41:56.49] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 2]] -value 600x645+898+278
+[03:41:58.42] /i gi::setField {/loadFrom/openAccess} -value {true} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 2]]
+[03:41:59.73] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 2]] -value 600x616+898+278
+[03:42:01.66] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 2]]
+[03:42:04.80] /# gi::executeAction saRun -in [gi::getWindows 2]
+[03:42:04.80] /i isa::run -testbench [sa::findActiveTestbench -window 2]
+[03:42:05.70] /m Information: "Composing simulator input file for design "vlsi_lib/4bitadder_testbench/schematic"..."
+[03:42:06.35] /m Information: "Simulator input file composed successfully for design "vlsi_lib/4bitadder_testbench/schematic""
+[03:42:10.46] /m Information: "Starting HSPICE simulation for design: vlsi_lib/4bitadder_testbench/schematic"
+[03:42:10.56] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 3]
+[03:42:10.70] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 3]
+[03:42:54.71] /i db::setAttr geometry -of [gi::getFrames 3] -value 800x600+735+216
+[03:42:56.97] /i db::setAttr geometry -of [gi::getFrames 3] -value 800x600+853+252
+[03:43:15.11] /i gi::setActiveWindow 2
+[03:43:15.21] /i gi::setActiveWindow 2 -raise true
+[03:43:16.57] /i gi::setCurrentIndex {outputsTable} -index {1,3} -in [gi::getWindows 2]
+[03:43:16.67] /i gi::setItemSelection {outputsTable} -index {1,3} -in [gi::getWindows 2]
+[03:43:16.79] /i gi::setItemSelection {outputsTable} -index {1,3} -in [gi::getWindows 2]
+[03:43:23.65] /m Information: Launching Waveform Viewer "cd /home/eemaj/bevans/simulation/vlsi_lib/4bitadder_testbench/schematic/HSPICE/nominal/results && wv -k -cdesigner > /home/eemaj/bevans/simulation/vlsi_lib/4bitadder_testbench/schematic/HSPICE/nominal/results/viewer.log 2>&1"
+[03:45:58.12] /m Information: Waveform Viewer exited normally.
+[03:46:10.47] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[03:46:11.41] /r giMenuAccess db::getNext [gi::getMenus saResultsMenu -from [gi::getWindows 2]]
+[03:46:17.47] /m Information: "Simulation completed successfully for design: vlsi_lib/4bitadder_testbench/schematic "
+[03:47:12.13] /# db::setAttr geometry -of [gi::getFrames 2] -value 600x500+976+180
+[03:47:13.64] /m Information: Measurement calculations completed for testbench: default in 55s
+[03:47:13.72] /m Information: "Evaluating and plotting outputs..."
+[03:47:15.55] /m Information: Launching Waveform Viewer "cd /home/eemaj/bevans/simulation/vlsi_lib/4bitadder_testbench/schematic/HSPICE/nominal/results && wv -k -cdesigner > /home/eemaj/bevans/simulation/vlsi_lib/4bitadder_testbench/schematic/HSPICE/nominal/results/viewer.log 2>&1"
+[03:47:28.73] /# gi::executeAction saSaveResults -in [gi::getWindows 2]
+[03:47:28.73] /i sa::showSaveResults -parent 2
+[03:47:29.09] /o oa:0x2908c140
+[03:47:31.05] /i gi::setActiveDialog [gi::getDialogs {saSaveResultsDialog} -parent [gi::getWindows 2]]
+[03:47:31.45] /i db::setAttr geometry -of [gi::getDialogs {saSaveResultsDialog} -parent [gi::getWindows 2]] -value 342x85+1231+379
+[03:49:07.52] /i db::setAttr geometry -of [gi::getDialogs {saSaveResultsDialog} -parent [gi::getWindows 2]] -value 342x85+482+312
+[03:49:09.53] /i db::setAttr geometry -of [gi::getDialogs {saSaveResultsDialog} -parent [gi::getWindows 2]] -value 704x85+482+312
+[03:49:17.75] /i gi::setActiveWindow 3
+[03:49:17.85] /i gi::setActiveWindow 3 -raise true
+[03:49:22.38] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[03:49:27.18] /i gi::pressButton {/cancel} -in [gi::getDialogs {saSaveResultsDialog} -parent [gi::getWindows 2]]
+[03:49:33.52] /m Information: Waveform Viewer exited normally.
+[03:49:36.07] /i gi::setActiveWindow 1
+[03:49:36.16] /i gi::setActiveWindow 1 -raise true
+[03:49:38.14] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[03:49:44.28] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[03:49:46.58] /i gi::setActiveWindow 2
+[03:49:46.68] /i gi::setActiveWindow 2 -raise true
+[03:49:47.76] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[03:49:48.24] /m Information: License 'Simulation & Analysis Environment' checked in. (LICENSE-004)
+[03:49:50.94] /i gi::setActiveWindow 0
+[03:49:51.03] /i gi::setActiveWindow 0 -raise true
+[03:49:53.63] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[03:49:54.27] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[03:49:54.45] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+666+362
+[03:49:56.68] /r giDialog gi::setField {saveState} -value {true} -in [gi::getDialogs {deExitDialog}]
+[03:49:57.81] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[03:50:00.82] /o Shutdown time: Wed Feb 28 03:50:00 2018
+[03:50:00.82] /o Elapsed session real time: 11.25 minutes
+[03:50:00.82] /o Session terminated. Log is at /home/eemaj/bevans/eecs168/cdesigner.log

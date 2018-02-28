@@ -1,0 +1,11 @@
+Layers |* Layers        Elp=00:00:03 Cpu=00:00:01 Usr=1.0    Sys=0.3    Mem=446.9 
+Models |* Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=446.9 
+HN |* HN            Elp=00:00:03 Cpu=00:00:01 Usr=0.7    Sys=0.3    Mem=462.9 
+XrefHN |* XrefHN        Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.1    Mem=186.1 
+Cells |* Cells         Elp=00:00:04 Cpu=00:00:01 Usr=0.7    Sys=0.3    Mem=446.9 
+Translate |* Translate     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.1    Mem=181.9 
+NetlistSetup |* NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.7 
+xTract |* xTract        Elp=00:00:10 Cpu=00:00:03 Usr=3.1    Sys=0.8    Mem=272.1 
+xTractPP |* xTractPP      Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.4    Mem=192.0 
+ReportViolations |* ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+Netlist |* Netlist       Elp=00:00:10 Cpu=00:00:02 Usr=1.7    Sys=0.9    Mem=448.9 
