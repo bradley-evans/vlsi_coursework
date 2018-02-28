@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
-<!-- created by Custom Designer (TM), build #, on Fri Feb  2 04:54:38 2018
+<!-- created by Custom Designer (TM), build #, on Wed Feb 28 03:50:00 2018
 -->
 <synopsysFile version="1.0" name="synopsysFavoriteDevices">
         <favoriteDevices viewType="maskLayout"/>
         <favoriteDevices viewType="schematic">
-                <cellView cell="pmos4t" view="symbol" library="SAED_PDK_90">
-                        <alias name="pmos4t"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView cell="nand" view="symbol" library="vlsi_lib">
-                        <alias name="nand"/>
-                        <category name="Recently Placed"/>
-                </cellView>
                 <cellView cell="vpulse" view="symbol" library="analogLib">
                         <alias name="vpulse"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView cell="gnd" view="symbol" library="analogLib">
-                        <alias name="gnd"/>
-                        <category name="Recently Placed"/>
-                </cellView>
                 <cellView cell="vdc" view="symbol" library="analogLib">
                         <alias name="vdc"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="pmos4t" view="symbol" library="SAED_PDK_90">
+                        <alias name="pmos4t"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="nmos4t" view="symbol" library="SAED_PDK_90">
+                        <alias name="nmos4t"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="gnd" view="symbol" library="analogLib">
+                        <alias name="gnd"/>
                         <category name="Recently Placed"/>
                 </cellView>
         </favoriteDevices>

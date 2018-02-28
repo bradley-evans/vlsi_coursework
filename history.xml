@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Designer (TM), build #, on Wed Feb 21 12:03:27 2018
+<!-- created by Custom Designer (TM), build #, on Wed Feb 28 03:50:00 2018
 -->
 <synopsysFile version="1.1" name="synopsysRecentFiles">
-        <recentFiles/>
+        <recentFiles>
+                <file cell="4bitadder_testbench" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+                <file cell="inverter" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+                <file cell="1bitfulladder" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+                <file cell="inverter_testbench" mode="write" view="config" file="config.xml" application="deConfiguredDesign" library="vlsi_lib"/>
+                <file cell="inverter_testbench" mode="write" view="schematic" file="schematic" application="seSchematic" library="vlsi_lib"/>
+        </recentFiles>
 </synopsysFile>
