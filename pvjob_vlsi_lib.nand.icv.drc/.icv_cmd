@@ -1,7 +1,0 @@
-vlsi_lib openaccess nand layout icv /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.drc/rules.drc.9m_saed90_icv.drc.rs /home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.drc/nand.drc.cdesigner.rc /home/eemaj/bevans/eecs168/lib.defs -vue -rc -oa_view -oa_lib_defs -oa_layer_map -i -f -c 
-schematic=UNSPECIFIED
-ICV_HOME_DIR=/usr/local/synopsys/icvalidator/K-2015.12-3
-ICV_INCLUDES=UNSET
-nand
-/home/eemaj/bevans/eecs168/pvjob_vlsi_lib.nand.icv.drc/run_details
-Complete

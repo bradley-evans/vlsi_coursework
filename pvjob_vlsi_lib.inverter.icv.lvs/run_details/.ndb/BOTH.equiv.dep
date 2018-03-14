@@ -1,3 +1,0 @@
-n12::n12 { }
-inverter::inverter { n12::n12 p12::p12 }
-p12::p12 { }

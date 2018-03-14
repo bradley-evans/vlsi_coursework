@@ -1,8 +1,0 @@
-{NETLIST nand.net
-{VERSION 2 0 0}
-{CELL nand
-{PORT VDD B A}
-{PROP top=7.385000 bottom=1.855000 left=0.945000 right=4.785000}
-}
-
-}

@@ -1,2 +1,0 @@
-INCLUDE $SAED90_PDK/lib.defs
-DEFINE vlsi_lib ./vlsi_lib

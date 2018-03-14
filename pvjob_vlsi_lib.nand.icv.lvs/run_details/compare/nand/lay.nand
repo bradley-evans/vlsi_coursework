@@ -1,7 +1,0 @@
-{NETLIST nand
-{VERSION 2 0 0}
-
-{CELL nand
-    {PORT }
-}
-}

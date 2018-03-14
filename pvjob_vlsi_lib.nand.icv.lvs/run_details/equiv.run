@@ -1,5 +1,0 @@
-
-/* top equiv */
-equiv_options({{"nand", "nand"}});
-
-/* Generated system equivalence points are listed in this section */
