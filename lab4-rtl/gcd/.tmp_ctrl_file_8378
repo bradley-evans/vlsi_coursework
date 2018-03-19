@@ -1,0 +1,2 @@
+LIBRARY    /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/saed90nm_fr
+  REFERENCE    /home/eemaj/bevans/eecs168/lab4-rtl/gcd/gcdGCDUnit_rtl_icc

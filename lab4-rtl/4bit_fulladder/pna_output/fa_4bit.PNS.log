@@ -7,23 +7,23 @@ Average power dissipation in fa_4bit :  1000.00 mW
 Power supply voltage :     1.20 V
 Average current in fa_4bit :   833.33 mA
 Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 80
-Maximum IR drop in fa_4bit : 415.50 mV
-Maximum current in fa_4bit : 156.324 mA
+Maximum IR drop in fa_4bit : 413.40 mV
+Maximum current in fa_4bit : 154.441 mA
 Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 76
-Maximum IR drop in fa_4bit : 416.38 mV
-Maximum current in fa_4bit : 156.453 mA
+Maximum IR drop in fa_4bit : 414.42 mV
+Maximum current in fa_4bit : 154.574 mA
 Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 72
-Maximum IR drop in fa_4bit : 417.22 mV
-Maximum current in fa_4bit : 156.575 mA
+Maximum IR drop in fa_4bit : 415.40 mV
+Maximum current in fa_4bit : 154.698 mA
 Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 80
-Maximum IR drop in fa_4bit : 415.50 mV
-Maximum current in fa_4bit : 156.324 mA
+Maximum IR drop in fa_4bit : 413.40 mV
+Maximum current in fa_4bit : 154.441 mA
 Processing net VSS ...
 Average power dissipation in fa_4bit :  1000.00 mW
 Power supply voltage :     1.20 V
 Average current in fa_4bit :   833.33 mA
 Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 80
-Maximum IR drop in fa_4bit : 486.70 mV
-Maximum current in fa_4bit : 173.447 mA
+Maximum IR drop in fa_4bit : 491.12 mV
+Maximum current in fa_4bit : 172.954 mA
 Memory usage for design data :      36372.480 Kbytes
 Overall takes     0.13 seconds

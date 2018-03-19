@@ -1,0 +1,18 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "counter_testbench": {},
+        "timeunit": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "bytes": 4523,
+            "mod": "...MASTER...",
+            "checksum": 4294967295,
+            "out": "objs/amcQw_d.o",
+            "mode": 4
+        }
+    },
+    "ObjArchives": [],
+    "reusePaths": {}
+}

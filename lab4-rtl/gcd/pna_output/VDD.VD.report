@@ -9,9 +9,9 @@
 * Cell Name : gcdGCDUnit_rtl
 * PG Net    : VDD
 *
-* Threshold: 209.919
+* Threshold: 242.597
 *
 * Format: [left bottom right top] on Layer is voltage
 *
-[52960 53200 53120 54480] on M1 is 209.919
-[52960 54480 53120 55600] on M1 is 209.919
+[44320 75663 44480 79320] on M1 is 242.597
+[44320 75320 44480 75663] on M1 is 242.597
